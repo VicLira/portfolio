@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.card-group {
+    display: grid;
+    grid-template-areas: 
+        'html css js'
+        'react . node';
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-html {
+    grid-area: html;
+}
+
+.card-css {
+    grid-area: css;
+}
+
+.card-js {
+    grid-area: js;
+}
+
+.card-react {
+    grid-area: react;
+}
+
+.card-nodejs {
+    grid-area: node;
+}
